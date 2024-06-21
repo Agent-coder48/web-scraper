@@ -1,0 +1,2 @@
+install required libraries using pip
+:pip install requests beautifulsoup4

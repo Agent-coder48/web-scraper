@@ -1,0 +1,5 @@
+Import Libraries: Import necessary libraries for web scraping (requests, BeautifulSoup) and for writing to CSV (csv).
+Fetch Webpage Content: Use requests.get(url) to get the content of the news website.
+Parse HTML: Use BeautifulSoup to parse the HTML content.
+Extract Headlines: Find all HTML elements that contain the headlines (in this case, we assume they are in <h3> tags).
+Write to CSV: Open a CSV file and write the extracted headlines into it.
